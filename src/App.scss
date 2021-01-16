@@ -1,0 +1,18 @@
+.container {
+  width: auto;
+  height: 256px;
+  display: flex;
+  justify-content: center;
+  .content {
+    width: 560px;
+    height: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      width: 112px;
+      height: 112px;
+      border: 1px solid red;
+    }
+  }
+}
